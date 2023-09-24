@@ -62,7 +62,7 @@ font-family: "Raleway", sans-serif;
 .page-nav{
     display: flex;
     gap: 40px;
-
+    padding: 24px 0;
 }
 .nav{
     padding: 24px 0;
@@ -184,7 +184,7 @@ padding: 188px 0;
     gap: 24px;
 
 }
-.list{
+.feature-list> .list{
     width: calc((100% - 72px) / 4);
 }
 .feature-title{
@@ -252,6 +252,7 @@ padding: 188px 0;
 /*============================OUR-PORTFOLIO==================================*/
 .our-portfolio{
     padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title{
@@ -268,7 +269,7 @@ padding: 188px 0;
     column-gap: 24px;
     row-gap: 48px; 
 }
-.list{
+.our-portfolio-list> .list{
     width: calc((100% - 48px) / 3);
 
 }

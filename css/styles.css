@@ -8,12 +8,21 @@ body{
     background-color: #FFFFFF;
     color: #434455;
     font-family: 'Roboto', sans-serif;
+    font-style: none;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
 ul{
     list-style-type: none;
    
+   
+}
+
+li{
+    list-style: none;
 }
 
 a{
@@ -44,6 +53,10 @@ h1, h2, h3, p{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: center;
+    align-items: center
+    
+
 }
 
 .navigation{
@@ -205,7 +218,7 @@ padding: 188px 0;
 
 }
 
-.feature-list .list-feature{
+.list-feature{
     flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -255,8 +268,6 @@ padding: 188px 0;
 .our-team-list .list-team{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-}
-.our-team-list .list-team{
     width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -301,8 +312,7 @@ padding: 188px 0;
     row-gap: 48px; 
 
 }
-
-.our-portfolio-list .list-portfolio{
+.list-portfolio{
     width: calc((100% - 48px) / 3);  
 
 }

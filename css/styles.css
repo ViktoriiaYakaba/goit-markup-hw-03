@@ -12,7 +12,6 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
 }
 maim{
     flex-grow: 1;
@@ -55,7 +54,7 @@ h1, h2, h3, p{
     margin: 0 auto;
     padding: 0 15px;
     justify-content: center;
-    align-items: center
+    align-items: center;
     
 
 }
@@ -198,6 +197,9 @@ padding: 188px 0;
 .feature{
     padding: 120px 0;
 }
+.feature-container{
+    margin: 0 auto;
+}
 
 .visually-hidden {
   position: absolute;
@@ -219,7 +221,7 @@ padding: 188px 0;
 }
 
 .list-feature{
-    width: calc((100% - 72px) / 4); 
+    width: calc( ( 100% - 72px ) / 4); 
 }
 
 .feature-title{
@@ -236,7 +238,7 @@ padding: 188px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
 
 /*==========================OUR-TEAM==============================*/
@@ -268,7 +270,7 @@ padding: 188px 0;
 .our-team-list .list-team{
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc( ( 100% - 3 * 24px ) / 4);
 }
 
 .team-title{
@@ -313,7 +315,7 @@ padding: 188px 0;
 
 }
 .list-portfolio{
-    width: calc((100% - 48px) / 3);  
+    width: calc( ( 100% - 48px ) / 3);  
 
 }
 

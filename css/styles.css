@@ -51,12 +51,9 @@ h1, h2, h3, p{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15;
+    padding: 0 15px;
     justify-content: center;
     align-items: center;
-    
-    
-
 }
 
 .navigation{
@@ -73,6 +70,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+    padding: 25px;
 } 
 
 .logo> .span-logo{
@@ -120,7 +118,7 @@ font-family: "Raleway", sans-serif;
     color: #434455;
     margin-right: 40px;
     align-items: center;
-    
+    padding: 24px 0;
 }
 
 .contacts> .link:hover, 

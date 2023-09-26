@@ -314,7 +314,7 @@ padding: 188px 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px; 
-    padding: 0 24px;
+
 }
 .list-portfolio{
     width: calc( (100% - 48px) / 3);  
